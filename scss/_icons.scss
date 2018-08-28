@@ -1,5 +1,5 @@
 .features-icons {
-  padding-top: 7rem;
+  padding-top: 4rem;
   padding-bottom: 7rem;
   .features-icons-item {
     max-width: 20rem;
@@ -16,5 +16,14 @@
         }
       }
     }
+  }
+  h2 {
+      margin-bottom: 4rem;
+
+  }
+
+  h4 {
+      margin-top: 4rem;
+      font-weight: bold;
   }
 }
