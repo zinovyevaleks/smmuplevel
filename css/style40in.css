@@ -1,0 +1,45 @@
+@font-face{
+	font-family: 'Gilroy Bold';
+	src: url('../css/fonts/gilroy.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+font-family: 'Gilroy Light';
+src: url('../css/fonts/Gilroy-Light.eot');
+src: url('../css/fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+url('../css/fonts/Gilroy-Light.woff') format('woff'),
+url('../css/fonts/Gilroy-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+*, body, html, p {
+	font-family: 'Gilroy Light';
+}
+h1, h2, h3, button, .btn {
+	font-family: 'Gilroy Bold';
+}
+header {
+	z-index: -1;
+}
+.bg-light {
+    background-color: #abd2f924!important;
+}
+.textinhat {
+	font-family: 'Gilroy Bold';
+	font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.telinhat {
+	font-size: 1.5rem;
+}
+.question h2 {
+	border: 2px solid;
+    border-radius: 50px;
+    padding: 19px;
+    max-width: 706px;
+    margin: -150px auto 5px;
+    z-index: 999;
+    background: #fff;
+}
