@@ -36,6 +36,9 @@ header.masthead {
       padding-bottom: 12rem; }
       header.masthead h1 {
         font-size: 3rem; } }
+  header.masthead .btn-block {
+    display: block;
+    width: 12rem; }
 
 .showcase .showcase-text {
   padding: 3rem; }
@@ -94,3 +97,22 @@ header.masthead {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem; }
+
+.navbar-brand img {
+  width: 10rem; }
+
+.question {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .question .answer {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold; }
+  .question button {
+    height: 8rem;
+    width: 15rem;
+    border: 3px solid;
+    border-radius: 27px;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
