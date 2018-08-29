@@ -56,16 +56,6 @@
                     </div>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <!-- <form>
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                </div>
-                <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                </div>
-              </div>
-            </form> -->
                 </div>
             </div>
         </div>
@@ -97,43 +87,43 @@
     </section>
 
     <!-- Slider Projects -->
-    <section>
-        <div class="slider">
-          <a href="#slide-1">1</a>
-          <a href="#slide-2">2</a>
-          <a href="#slide-3">3</a>
-          <a href="#slide-4">4</a>
-          <a href="#slide-5">5</a>
-          <div class="slides">
-            <div id="slide-1">
-              <div class="col-md-4">
-                <h3>Название аккаунта:</h3>
-                <p>master.panin</p>
-                <p>Шоу каскадеров, <br> участие в кино</p>
-                <h3>Тариф:</h3>
-                <p>ведение аккаунта</p>
-              </div>
-              <div class="col-md-4">
-                <img src="img/portfolio/1.jpeg">
-              </div>
-              <div class="col-md-4">
-                <img src="img/portfolio/2.jpeg">
-              </div>
-            </div>
-            <div id="slide-2">
-              2
-            </div>
-            <div id="slide-3">
-              3
-            </div>
-            <div id="slide-4">
-              4
-            </div>
-            <div id="slide-5">
-              5
-            </div>
-          </div>
-        </div>
+    <section id="slider" class="bg-dark pt-5">
+            <h2 class="text-center text-white mb-5">Наши работы</h2>
+            <p class="text-white text-center">Все эти аккаунты вы можете найти в Instagram и написать их владельцам</p>
+                <div class="container">
+                  <ul id="slides">
+                    <li class="slide showing">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h3>Название аккаунта:</h3>
+                                    <p>master.panin</p>
+                                    <p>Шоу каскадеров, <br> участие в кино</p>
+                                    <h3>Тариф:</h3>
+                                    <p>ведение аккаунта</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="img/portfolio/1.jpeg">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="img/portfolio/2.jpeg">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slide">
+                      
+                    </li>
+                    <li class="slide"></li>
+                  </ul>
+                  <div class="buttons">
+                    <button class="controls" id="previous">&lt;</button>
+
+                    <button class="controls" id="pause">&#10074;&#10074;</button>
+
+                    <button class="controls" id="next">&gt;</button>
+                  </div>
+                </div>
     </section>
 
     <!-- Icons Grid -->
@@ -312,6 +302,9 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Local core JavaScript -->
+    <script src="js/slider.js"></script>
 
 </body>
 
