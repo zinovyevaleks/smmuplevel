@@ -62,6 +62,31 @@ just for appearance; change whatever you want
 	border: 1px solid #000;
 }
 
+@media screen and (max-width: 996px) {
+	.slide img {
+		width: 190px;
+		border: 1px solid #000;
+	}	
+}
+@media screen and (max-width: 768px) {
+	#slider {
+ 		height: 930px;
+	}
+	#slides {
+		height: 720px;	
+		text-align: center;		
+	}	
+	.slide {
+		font-size: 1em;
+	}
+	.slide p {
+		font-size: 1.2em;
+	}
+	.slide img {
+		width: 210px;
+	}
+}
+
 .controls{
   background: #333;
   color: #fff;
