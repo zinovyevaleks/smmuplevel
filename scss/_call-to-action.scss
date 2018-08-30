@@ -1,17 +1,19 @@
 .call-to-action {
-  position: relative;
-  background-color: $gray-800;
-  background: url('../img/bg-masthead.png') no-repeat center center;
-  @include background-cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  .overlay {
-    position: absolute;
-    background-color: $gray-900;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-  }
+    // margin-top: 6rem;
+    position: relative;
+    background-color: $gray-800;
+    background: url("../img/bg-masthead.png") no-repeat center center;
+    @include background-cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    .overlay {
+        position: absolute;
+        background-color: $gray-900;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.3;
+    }
 }
