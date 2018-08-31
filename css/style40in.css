@@ -84,7 +84,6 @@ header {
 	left: 0px;
 }
 .comments .row {
-    height: 577px;
     background: unset;
 }
 .bg-inst {
@@ -96,5 +95,23 @@ header {
     height: 200%;
     width: 100%;
     margin-top: -112px;
-    opacity: 0.1;
+    opacity: 0.2;
+}
+.call-to-action2 .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}
+.call-to-action2 {
+    position: relative;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 7rem;
+    background: linear-gradient(0deg, blue 0%, red 100%);
 }
