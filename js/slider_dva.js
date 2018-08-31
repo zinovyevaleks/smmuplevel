@@ -10,11 +10,6 @@ function moveSlides(n) {
 	showSlides(index += n);
 }
 
-// листание/показ миниатюр
-function currentSlide(n) {
-	showSlides(index = n);
-}
-
 function showSlides(n) {
 	if (n > slidess.length) { // если показана последняя картинка, при клике на кнопку "назад"
 		index = 1; // следующая картинка - первая из списка

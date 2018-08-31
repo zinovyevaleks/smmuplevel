@@ -83,3 +83,18 @@ header {
 .tariffCards {
 	left: 0px;
 }
+.comments .row {
+    height: 577px;
+    background: unset;
+}
+.bg-inst {
+    background-image: linear-gradient(0deg, red 0%, blue 100%);
+}
+.comments .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 200%;
+    width: 100%;
+    margin-top: -112px;
+    opacity: 0.1;
+}
