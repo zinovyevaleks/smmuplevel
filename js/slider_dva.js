@@ -1,7 +1,7 @@
-const slides = document.querySelectorAll('.slide_dva'); // все картинки в слайдере
+const slidess = document.querySelectorAll('.slide_dva'); // все картинки в слайдере
 const thumbs = document.querySelectorAll('.thumbnail'); // все миниатюры под слайдером
 const prev = document.querySelector('.prevSlide'); // кнопка "назад"
-const next = document.querySelector('.nextSlide'); // кнопка "вперёд"
+const nexts = document.querySelector('.nextSlide'); // кнопка "вперёд"
 
 let index = 1; // индекс активной картинки (которую видно)
 
@@ -10,24 +10,19 @@ function moveSlides(n) {
 	showSlides(index += n);
 }
 
-// листание/показ миниатюр
-function currentSlide(n) {
-	showSlides(index = n);
-}
-
 function showSlides(n) {
-	if (n > slides.length) { // если показана последняя картинка, при клике на кнопку "назад"
+	if (n > slidess.length) { // если показана последняя картинка, при клике на кнопку "назад"
 		index = 1; // следующая картинка - первая из списка
 	}
 
 	if (n < 1) { // если показана первая картинка, при клике на кнопку "вперёд"
-		index = slides.length; // следующая картинка - последняя из списка
+		index = slidess.length; // следующая картинка - последняя из списка
 	}
 
 	// слайды
-	for (let i = 0; i < slides.length; i++) {
-		slides[i].style.display = 'none'; // спрятать предыдущую картинку
-		slides[index - 1].style.display = 'block'; // показать активную картинку
+	for (let i = 0; i < slidess.length; i++) {
+		slidess[i].style.display = 'none'; // спрятать предыдущую картинку
+		slidess[index - 1].style.display = 'block'; // показать активную картинку
 	}
 
 	// миниатюры

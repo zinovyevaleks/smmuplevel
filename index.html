@@ -24,6 +24,7 @@
     <link href="css/slider.css" rel="stylesheet">
     <link href="css/style40in.css" rel="stylesheet">
     <link rel="stylesheet" href="css/slider_dva.css">
+    <link rel="stylesheet" href="css/otz.css">
 
 </head>
 
@@ -74,12 +75,14 @@
         <div class="row">
             <div class="col-lg-6 col-sm-6">
                 <p class="answer">Да</p>
+                <img class="strelr" src="img/strelr.png" alt="right strelka">
                 <button type="button" name="button">
                     Получите <b>БЕСПЛАТНЫЙ</b> разбор аккаунта + рекомендации!
                 </button>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <p class="answer">Нет</p>
+                <img class="strell" src="img/strell.png" alt="left strelka">
                 <button type="button" name="button">
                     Получите <b>БЕСПЛАТНУЮ</b> консультацию - с чего начать!
                 </button>
@@ -88,29 +91,42 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="testimonials text-center bg-light">
+    <section class="testimonials text-center pt-0">
         <div class="container">
             <div class="about">
-                <h2>Кто мы?</h2>
-                <img src="img/logo (3).png" alt="logo">
-                <h2>ВЕДЁМ ПРОЕКТЫ ОТ КАСКАДЁРОВ ДО СТИЛИСТОВ РОССИЙСКИХ ЗВЁЗД!</h2>
+                <h2 class="display-4">КТО МЫ?</h2>
+                <img class="logowho" src="img/logo (3).png" alt="logo">
+                <h2 class="display-5">ВЕДЁМ ПРОЕКТЫ ОТ КАСКАДЁРОВ ДО СТИЛИСТОВ РОССИЙСКИХ ЗВЁЗД!</h2>
             </div>
-            <h3 class="mb-5">Основатели компании</h3>
+            <hr>
+            <h3 class="my-5 display-4">Основатели компании</h3>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                         <img class="img-fluid rounded-circle mb-3" src="img/nastya.jpeg" alt="">
-                        <h5>Бегмова Анастасия</h5>
-                        <p class="font-weight-light mb-0">Больше 4-х лет опыта в управлении проектами;<br> Участие в организации нового производства в г. Тольятти;<br> Участие в областном проекте, выступление перед Нарусовой Л.Б.;<br> Правая рука главного инженера и директора проекта
-                            на АВТОВАЗе в команде по проектированию автомобилей Лада Гранта, Лада Калина.</p>
+                        <h4 class="mb-4">Бегмова Анастасия</h4>
+                        <div class="list-group h5">
+						  <a class="list-group-item list-group-item-action">
+						    Больше 4-х лет опыта в управлении проектами.
+						  </a>
+						  <a class="list-group-item list-group-item-action"> Участие в организации нового производства в г. Тольятти.</a>
+						  <a class="list-group-item list-group-item-action">Участие в областном проекте, выступление перед Нарусовой Л.Б.</a>
+						  <a class="list-group-item list-group-item-action">Правая рука главного инженера и директора проекта на АВТОВАЗе в команде по проектированию автомобилей Лада Гранта, Лада Калина.</a>
+						</div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                         <img class="img-fluid rounded-circle mb-3" src="img/artem.jpeg" alt="">
-                        <h5>Бахарев Артем</h5>
-                        <p class="font-weight-light mb-0">Больше 3-х лет опыта в управлении проектами;<br> Менеджер по проектам в компании Redmadrobot No1 по разработке мобильных приложений;<br> Участие в областном проекте, выступление перед Нарусовой Л.Б.; Проектирование онлайн-школы
-                            по организации бизнеса с Китаем.</p>
+                        <h4 class="mb-4">Бахарев Артем</h4>
+                        <div class="list-group h5">
+						  <a class="list-group-item list-group-item-action">
+						    Больше 3-х лет опыта в управлении проектами
+						  </a>
+						  <a class="list-group-item list-group-item-action">Менеджер по проектам в компании Redmadrobot No1 по разработке мобильных приложении</a>
+						  <a class="list-group-item list-group-item-action">Участие в областном проекте, выступление перед Нарусовой Л.Б.</a>
+						  <a class="list-group-item list-group-item-action">Проектирование онлайн-школы по организации бизнеса с Китаем.</a>
+						</div>
                     </div>
                 </div>
             </div>
@@ -119,8 +135,8 @@
 
     <!-- Slider Projects -->
     <section id="slider" class="bg-dark pt-5">
-        <h2 class="text-center text-white mb-5">Наши работы</h2>
-        <p class="text-white text-center">Все эти аккаунты вы можете найти в Instagram и написать их владельцам</p>
+        <h2 class="text-center text-white mb-5 display-4">НАШИ РАБОТЫ</h2>
+        <p class="text-white text-center h3 mb-5">Все эти аккаунты вы можете найти в Instagram и даже написать их владельцам</p>
         <div class="container">
             <ul id="slides">
                 <li class="slide showing">
@@ -271,53 +287,40 @@
         </div>
     </section>
 
+    <hr>
     <!-- Slider 2 -->
-    <section>
-        <div class="carousel">
+    <section id="slider_dva" class="text-center py-5 my-5">
+    	<h2 class="display-4">КАК МЫ СПРАВЛЯЕМСЯ С РЕКЛАМОЙ</h2>
+        <div class="carousel_dva text-left">
             <div class="slide_dva first">
-                <img src="img/rek1.jpg">
-                <h3>Ниша:</h3>
-                <p>развлечения.</p>
-                <h3>Цель:</h3>
-                <p>трафик с инстаграм и фейсбук на лендинг для покупки билетов. Цена перехода не более 15 руб.</p>
-                <h3>Результат:</h3>
-                <p>за 1 неделю достигнута цена перехода 8,3 руб.</p>
+                <img class="mb-3" src="img/rek1.jpg">
+                <h3>Ниша:<p>развлечения.</p></h3>                
+                <h3>Цель:<p>трафик с инстаграм и фейсбук на лендинг для покупки билетов. Цена перехода не более 15 руб.</p></h3>                
+                <h3>Результат:<p>за 1 неделю достигнута цена перехода 8,3 руб.</p></h3>                
             </div>
             <div class="slide_dva">
-                <img src="img/rek2.jpg">
-                <h3>Ниша:</h3>
-                <p>розничная продажа пряжи.</p>
-                <h3>Цель:</h3>
-                <p>стоимость лида не более 100 руб.</p>
-                <h3>Результат:</h3>
-                <p>за 3 недели достигнута цена лида в 96,7 руб.</p>
+                <img class="mb-3" src="img/rek2.jpg">
+                <h3>Ниша:<p>розничная продажа пряжи.</p></h3>                
+                <h3>Цель:<p>стоимость лида не более 100 руб.</p></h3>                
+                <h3>Результат:<p>за 3 недели достигнута цена лида в 96,7 руб.</p></h3>               
             </div>
             <div class="slide_dva">
-                <img src="img/rek3.jpg">
-                <h3>Ниша:</h3>
-                <p>салон красоты.</p>
-                <h3>Цель:</h3>
-                <p>лиды на основные услуги не дороже 250 руб.</p>
-                <h3>Результат:</h3>
-                <p>за 4 недели протестировано 23 рекламных объявления, достигнута стоимость лида в 215 руб.</p>
+                <img class="mb-3" src="img/rek3.jpg">
+                <h3>Ниша:<p>салон красоты.</p></h3>                
+                <h3>Цель:<p>лиды на основные услуги не дороже 250 руб.</p></h3>
+                <h3>Результат:<p>за 4 недели протестировано 23 рекламных объявления, достигнута стоимость лида в 215 руб.</p></h3>                
             </div>
             <div class="slide_dva">
-                <img src="img/rek4.jpg">
-                <h3>Ниша:</h3>
-                <p>салон красоты.</p>
-                <h3>Цель:</h3>
-                <p>лиды на окрашивание и ботокс.</p>
-                <h3>Результат:</h3>
-                <p>за 2 недели протестировано 11 рекламных объявлений, достигнута стоимость лида в 330 руб. на услугу стоимостью от 3500 руб.</p>
+                <img class="mb-3" src="img/rek4.jpg">
+                <h3>Ниша:<p>салон красоты.</p></h3>                
+                <h3>Цель:<p>лиды на окрашивание и ботокс.</p></h3>                
+                <h3>Результат:<p>за 2 недели протестировано 11 рекламных объявлений, достигнута стоимость лида в 330 руб. на услугу стоимостью от 3500 руб.</p></h3>                
             </div>
             <div class="slide_dva">
-                <img src="img/rek5.jpg">
-                <h3>Ниша:</h3>
-                <p>салон красоты.</p>
-                <h3>Цель:</h3>
-                <p>лиды на 4 вида услуг с разными видами стоимости.</p>
-                <h3>Результат:</h3>
-                <p>за 1 неделю в протестировали 14 рекламных объявлений, нашли 4 кампании. за месяц потратили более 47 000 руб. рекламного бюджета и получили около 374 лидов</p>
+                <img class="mb-3" src="img/rek5.jpg">
+                <h3>Ниша:<p>салон красоты.</p></h3>                
+                <h3>Цель:<p>лиды на 4 вида услуг с разными видами стоимости.</p></h3>                
+                <h3>Результат:<p>за 1 неделю в протестировали 14 рекламных объявлений, нашли 4 кампании. за месяц потратили более 47 000 руб. рекламного бюджета и получили около 374 лидов</p></h3>              
             </div>
         </div>
         <!-- кнопки "назад" и "вперёд" -->
@@ -386,15 +389,36 @@
 
     </section>
 
-    <section class="comments text-center bg-light">
+    <section class="comments text-center bg-inst">
+        <div class="overlay"></div>
         <div class="container">
-            <h3 class="mb-5">Отзывы о нас</h3>
-            <p>Личные кейсы это конечно хорошо, но лучше услышать реальные мнения клиентов:</p>
+            <h2 class="text-center text-white mb-5 display-4">ОТЗЫВЫ О НАС</h2>
+            <p class="text-white text-center h3 mb-5">Личные кейсы это конечно хорошо, но лучше услышать реальные мнения клиентов:</p>            
             <div class="row">
-                <div class="col-lg-6">
-
-                </div>
-                <div class="col-lg-6">
+                <div class="col-lg-12">
+                      <div class="photos">
+                          <div class="img">
+                            <img src="img/review/cofe.png">    
+                          </div>
+                          <div class="img0">
+                            <img src="img/review/eng.png">
+                          </div>
+                          <div class="img1">
+                            <img src="img/review/beauty_hb.jpg">
+                          </div>
+                          <div class="img2">
+                            <video width="400" height="300" controls="controls" poster="img/review/otz1.jpg">
+                              <source src="img/review/otz1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                            </video>
+                          </div>
+                          <div class="img3">
+                            <video width="400" height="300" controls="controls" poster="img/review/otz2.jpg">
+                              <source src="img/review/otz2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                            </video>
+                          </div>
+                        </div>
+                        <i class="fa fa-angle-right"></i>
+                        <i class="fa fa-angle-left"></i>
                 </div>
             </div>
         </div>
@@ -508,6 +532,7 @@
     <!-- Local core JavaScript -->
     <script src="js/slider.js"></script>
     <script src="js/slider_dva.js"></script>
+    <script src="js/otz.js"></script>
 
 </body>
 
