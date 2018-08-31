@@ -92,7 +92,7 @@ header {
 .comments .overlay {
     position: absolute;
     background-color: #212529;
-    height: 200%;
+    height: 170%;
     width: 100%;
     margin-top: -112px;
     opacity: 0.2;
@@ -114,4 +114,7 @@ header {
     background-size: cover;
     padding-bottom: 7rem;
     background: linear-gradient(0deg, blue 0%, red 100%);
+}
+.bg-inst2 {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
