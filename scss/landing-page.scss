@@ -14,3 +14,8 @@
 @import "question.scss";
 @import "tariff.scss";
 @import "comments.scss";
+
+@media (max-width: 768px) {
+    @import "tariff_mobile.scss";
+
+}
