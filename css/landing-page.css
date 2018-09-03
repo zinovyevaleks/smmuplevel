@@ -126,7 +126,7 @@ footer.footer {
 
 .tariff {
   padding-top: 6rem;
-  padding-bottom: 12rem; }
+  padding-bottom: 20rem; }
 
 .tariffCards {
   display: flex;
@@ -144,7 +144,7 @@ footer.footer {
   height: 185px;
   border-radius: 12px;
   color: #fff;
-  transform: rotateX(45deg) rotateY(-15deg) rotate(28deg);
+  transform: rotateX(18deg) rotateY(5deg) rotate(40deg);
   transition: all 0.4s ease;
   overflow: hidden;
   cursor: pointer; }
@@ -220,7 +220,7 @@ footer.footer {
   box-shadow: 20px 20px 60px rgba(34, 50, 84, 0.5), 1px 1px 0 1px #2c6fd1; }
 
 .tariffCards > div:hover {
-  transform: rotateX(30deg) rotateY(-15deg) rotate(30deg) translate(-25px, 50px); }
+  transform: rotateX(24deg) rotateY(6deg) rotate(4deg) translate(-25px, 52px); }
 
 .tariffCards > div:hover:after {
   transform: translateX(100%);

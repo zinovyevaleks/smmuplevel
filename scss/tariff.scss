@@ -1,6 +1,6 @@
 .tariff {
     padding-top: 6rem;
-    padding-bottom: 12rem;
+    padding-bottom: 20rem;
 }
 
 .tariffCards {
@@ -13,16 +13,6 @@
     transform: translate3d(0, 0, 0);
     transform-style: preserve-3d;
 }
-// .tariffCards:after {
-//   position: absolute;
-//   bottom: -27px;
-//   left: 5%;
-//   content: '';
-//   width: 65%;
-//   height: 10px;
-//   border-radius: 100%;
-//   background-image: radial-gradient(rgba(34,50,84,0.04), rgba(34,50,84,0));
-// }
 
 .tariffCards > div {
     position: relative;
@@ -30,7 +20,7 @@
     height: 185px;
     border-radius: 12px;
     color: #fff;
-    transform: rotateX(45deg) rotateY(-15deg) rotate(28deg);
+    transform: rotateX(18deg) rotateY(5deg) rotate(40deg);
     transition: all 0.4s ease;
     overflow: hidden;
     cursor: pointer;
@@ -120,10 +110,34 @@
 }
 
 .tariffCards > div:hover {
-    transform: rotateX(30deg) rotateY(-15deg) rotate(30deg) translate(-25px, 50px);
+    transform: rotateX(24deg) rotateY(6deg) rotate(4deg) translate(-25px, 52px);
 }
 
 .tariffCards > div:hover:after {
     transform: translateX(100%);
     transition: all 1.2s ease-in-out;
 }
+
+// @media (max-width: 768px) {
+//
+//     .tariffCards {
+//         display: flex;
+//         justify-content: space-between;
+//         position: relative;
+//         top: 6rem;
+//         left: 23rem;
+//         user-select: none;
+//         transform: translate3d(0, 0, 0);
+//         transform-style: preserve-3d;
+//     }
+//
+//     .tariffCards > div:hover {
+//         transform: rotateX(30deg) rotateY(-15deg) rotate(30deg) translate(-25px, 50px);
+//     }
+//
+//     .tariffCards > div:hover:after {
+//         transform: translateX(100%);
+//         transition: all 1.2s ease-in-out;
+//     }
+//
+// }
