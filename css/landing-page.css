@@ -127,6 +127,8 @@ footer.footer {
 .tariff {
   padding-top: 6rem;
   padding-bottom: 20rem; }
+  .tariff h2 {
+    margin-bottom: 50px; }
 
 .tariffCards {
   display: flex;
@@ -231,19 +233,11 @@ footer.footer {
 @media (max-width: 768px) {
   .tariff {
     height: 1000px; }
+    .tariff h2 {
+      margin-bottom: .5rem; }
 
   .tariffCards {
     display: block; }
-
-  .tariffCards:after {
-    position: absolute;
-    bottom: -27px;
-    left: 5%;
-    content: '';
-    width: 65%;
-    height: 10px;
-    border-radius: 100%;
-    background-image: radial-gradient(rgba(34, 50, 84, 0.04), rgba(34, 50, 84, 0)); }
 
   .tariffCards > div {
     position: relative;
