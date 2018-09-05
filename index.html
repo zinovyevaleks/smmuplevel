@@ -24,11 +24,11 @@
     <link rel="stylesheet" href="css/slider_dva.css">
     <link rel="stylesheet" href="css/otz.css">
     <link rel="stylesheet" href="css/steps.css">
+    <link rel="stylesheet" href="css/washer.css">
 
 </head>
 
-<body>
-
+<body>    
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
         <div class="container">
@@ -55,7 +55,16 @@
             <a class="nav-link" href="#">Проекты</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#">О рекламе</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Отзывы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Тарифы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Этапы</a>
           </li>
         </ul>
   </div>
@@ -63,11 +72,23 @@
     </nav>
 
     <!-- Masthead -->
-    <header class="masthead text-white text-center">
-        <div class="overlay"></div>
+    <header id="gradient" class="masthead text-white text-center">                  
         <div class="container">
             <div class="row">
-                <div class="col-xl-9 mx-auto">
+                <div class="containeri">
+                    <div class="box">
+                        <div class="side-front">
+                            <span class="insta">insta</span>
+                            <div class="circlei"></div>
+                            <div class="rect"></div>
+                        </div>
+                        <div class="side-top"></div>
+                        <div class="side-right">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 mx-auto bg-op py-5 my-0">
                     <h1 class="mb-5">Увеличьте число клиентов из Инстаграм одним кликом</h1>
                     <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                         <form>
@@ -85,7 +106,7 @@
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                 </div>
             </div>
-        </div>
+        </div>        
     </header>
 
     <!-- У вас уже есть аккаунт? -->
@@ -94,14 +115,14 @@
         <div class="row">
             <div class="col-lg-6 col-sm-6">
                 <p class="answer">Да</p>
-                <img class="strelr" src="img/strelr.png" alt="right strelka">
+                <img class="arrowl" src="img/arrowl.png" alt="right strelka">
                 <button type="button" name="button">
                     Получите <b>БЕСПЛАТНЫЙ</b> разбор аккаунта + рекомендации!
                 </button>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <p class="answer">Нет</p>
-                <img class="strell" src="img/strell.png" alt="left strelka">
+                <img class="arrowr" src="img/arrowr.png" alt="left strelka">
                 <button type="button" name="button">
                     Получите <b>БЕСПЛАТНУЮ</b> консультацию - с чего начать!
                 </button>
@@ -655,6 +676,9 @@
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
     <script src="js/steps.js"></script>
+
+
+    <script  src="js/gradient.js"></script>
 
 </body>
 

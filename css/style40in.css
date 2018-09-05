@@ -25,6 +25,10 @@ header {
 .bg-light {
     background-color: #abd2f924!important;
 }
+.bg-op {
+    background-color: #1f000991;
+    border-radius: 5px;
+}
 .textinhat {
 	font-family: 'Gilroy Bold';
 	font-size: 1.3rem;
@@ -43,15 +47,17 @@ header {
     z-index: 999;
     background: #fff;
 }
-.strelr {
+.arrowl {
 	position: absolute;
-    top: -59px;
-    right: 61px;
+    top: -52px;
+    right: -10px;
+    width: 234px;
 }
-.strell {
+.arrowr {
 	position: absolute;
-    top: -58px;
-    left: 58px;
+    top: -52px;
+    left: 10px;
+    width: 234px;
 }
 
 .question button {
