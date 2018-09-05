@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/slider_dva.css">
     <link rel="stylesheet" href="css/otz.css">
     <link rel="stylesheet" href="css/steps.css">    
+    <link rel="stylesheet" href="css/instlogo.css">     
 
 </head>
 
@@ -73,7 +74,14 @@
     <!-- Masthead -->
     <header id="gradient" class="masthead text-white text-center">                  
         <div class="container">
-            <div class="row">                
+            <div class="row">           
+                <div class="gradient">
+                   <svg>
+                     <circle cx="100" cy="100" r="40" fill="none" stroke="white" stroke-width="9" id="bigCircle"/> 
+                     <circle cx="147" cy="55" r="7" fill="white" stroke="none" stroke-width="9" id="dot"/> 
+                     <rect rx="20" ry="20" x="25" y="25" width="150" height="150" fill="none" stroke="white" stroke-width="9" id="square"/>  
+                   </svg> 
+                </div>     
                 <div class="col-xl-9 mx-auto py-5 my-0">
                     <h1 class="mb-5">Увеличьте число клиентов из Инстаграм одним кликом</h1>
                     <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -114,6 +122,7 @@
                 </button>
             </div>
         </div>
+        <canvas id="rope"></canvas>        
     </section>
 
     <!-- Testimonials -->
@@ -451,7 +460,6 @@
     </section>
 
     <section class="comments text-center bg-inst">
-        <div class="overlay"></div>
         <div class="container">
             <h2 class="text-center text-white mb-5 display-4">ОТЗЫВЫ О НАС</h2>
             <p class="text-white text-center h3 mb-5">Личные кейсы это конечно хорошо, но лучше услышать реальные мнения клиентов:</p>
@@ -488,7 +496,6 @@
 
     <!-- Call to Action -->
     <section class="call-to-action2 text-white text-center">
-        <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
@@ -740,8 +747,9 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
     <script src="js/steps.js"></script>
 
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.0/anime.min.js'></script>
     <script  src="js/gradient.js"></script>
+    <script  src="js/instlogo.js"></script>    
 
 </body>
 
