@@ -40,6 +40,8 @@ header {
 }
 .menu {
     font-size: 1.5rem;
+    border-bottom: 0.1px solid #bbb;
+    background: #fffffff2;
 }
 .question h2 {
 	border: 2px solid;
