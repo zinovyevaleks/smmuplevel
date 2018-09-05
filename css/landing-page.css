@@ -230,6 +230,9 @@ footer.footer {
     height: 500px;
     background-color: grey; }
 
+.feedback {
+  margin-bottom: 80px; }
+
 @media (max-width: 768px) {
   .tariff {
     height: 1000px; }
