@@ -38,6 +38,9 @@ header {
 .telinhat {
 	font-size: 1.5rem;
 }
+.menu {
+    font-size: 1.5rem;
+}
 .question h2 {
 	border: 2px solid;
     border-radius: 50px;
