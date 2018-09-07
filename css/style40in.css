@@ -124,12 +124,12 @@ header {
     -o-background-size: cover;
     background-size: cover;
     padding-bottom: 7rem;
-    background: linear-gradient(0deg, #0000ffcc 0%, #ff0000d4 100%);
+    
 }
 
 .barhat {
     min-height: 100vh;
-    background-image: url(../img/bg/blackmat3.jpg);
+    background-image: url(../img/bg/red.jpg);    
     background-size: cover;
 }
 .barhat > .overlay {
@@ -137,7 +137,7 @@ header {
     top: 0;
     width: 100%;    
     opacity: 0.8;
-    background: #000;
+    background: linear-gradient(118deg, #450606 0%, #a81e25 125%);
     min-height: 100vh;
 }
 .barhat hr {
@@ -146,24 +146,27 @@ header {
     border: 0;
     width: 300px;
     float: left;
-    border-top: 5px solid rgb(100, 13, 16);
+    border-top: 5px solid #ad2a2f;
 }
 .btn-red {
     color: #fff;
-    background-color: #95191f;
+    background-color: #100101e8;
     border-color: #5c0b0d;
 }
 .btn-red:hover {
     color: #fff;
-    background-color: #bd3b41;
+    background-color: #555;
     border-color: #5c0b0d;
 }
 .btn-red:active {
     color: #fff;
-    background-color: #79161b;
+    background-color: #000;
     border-color: #5c0b0d;
 }
 .barhat img {
     max-width: 350px;
     float: right;
+}
+.barhat input {
+    background: #ece0e0f2;
 }

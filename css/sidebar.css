@@ -39,11 +39,22 @@
     top: 0;
     left: 0;
     height: 100vh;
-    z-index: 999;
-    background: linear-gradient(118deg,#a81e25 0%, #450606 125%);
+    z-index: 999;    
+    background-image: url(../img/bg/1.jpg);
+    background-size: cover;
     color: #fff;
-    transition: all 0.3s;
-    border-right: 3px ridge #450606;
+    transition: all 0.3s;    
+    border-right: 5px groove #5c090aad;
+}
+#sidebar .overlay{
+    width: 250px;
+    opacity: 0.9;
+    background: linear-gradient(118deg,#171717 0%, #000 125%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -1;
 }
 
 #sidebar.active {
@@ -52,7 +63,8 @@
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: linear-gradient(118deg,#a81e25 0%, #450606 125%);
+    background: linear-gradient(118deg,#232323 0%, #000 125%);
+    border-bottom: 2px ridge #000;
 }
 #sidebar .sidebar-footer {
     font-weight: bold;
@@ -61,7 +73,7 @@
 }
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid rgb(100, 13, 16);
+    border-bottom: 2px ridge #000000;
 }
 
 #sidebar ul p {
