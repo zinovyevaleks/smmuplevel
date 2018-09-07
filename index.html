@@ -25,63 +25,89 @@
     <link rel="stylesheet" href="css/otz.css">
     <link rel="stylesheet" href="css/steps.css">    
     <link rel="stylesheet" href="css/instlogo.css">     
+    <link rel="stylesheet" href="css/sidebar.css">     
 
 </head>
 
 <body>    
-    <!-- Navigation -->
-    <nav class="navbar navbar-light bg-white static-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo (3).png" alt="logo">
-                <!-- SMMUPLEVEL -->
-            </a>
-            <p class="textinhat">Профессиональное продвижение <br> в инстаграм</p>
-            <p class="telinhat">+7 (966) 315-06-86 <br> +7 (964) 972-46-02 </p>
-            <a class="btn btn-primary" href="#">Заказать звонок</a>
+<!-- Navigation -->
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <div class="gradient">
+               <svg>
+                 <circle cx="35" cy="35" r="15" fill="none" stroke="white" stroke-width="2" id="bigCircle" stroke-dasharray="150" style="stroke-dashoffset: 0px;"></circle> 
+                 <circle cx="50" cy="20" r="3" fill="white" stroke="none" stroke-width="1" id="dot"></circle> 
+                 <rect rx="5" ry="5" x="10" y="10" width="50" height="50" fill="none" stroke="white" stroke-width="3" id="square" stroke-dasharray="564.85400390625" style="stroke-dashoffset: 0px;"></rect>  
+               </svg> 
+            </div>             
+            <h3>SMM</h3>
+            <h3>UP LEVEL</h3>
         </div>
+
+        <ul class="list-unstyled components">
+        	<li><a href="">Об инстаграм</a></li>
+        	<li><a href="">О нас</a></li>
+        	<li><a href="">Проекты</a></li>
+        	<li><a href="">Тарифы</a></li>
+        	<li><a href="">Отзывы</a></li>
+        	<li><a href="">Контакты</a></li>
+        </ul>
+
+        <div class="sidebar-footer text-center">
+        	<p>+7 966 315-06-86 <br> +7 964 972-46-02</p>
+        </div>
+            
     </nav>
 
-    <nav class="menu navbar sticky-top navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">О нас</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Проекты</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">О рекламе</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Отзывы</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Тарифы</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Этапы</a>
-          </li>
-        </ul>
-  </div>
-</nav>
-    </nav>
+<!-- Page Content  -->
+<div id="content">
+    <button style="display: none;" type="button" id="sidebarCollapse" class="btn btn-info">
+        <i class="fas fa-align-left"></i>
+        <span>Toggle Sidebar</span>
+    </button>
+    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-align-justify"></i>
+   </button>
+
+   <!-- the first screen-->
+   	<header class="barhat">
+   		<div class="overlay"></div>
+   		<div class="container">
+            <div class="row">
+            	<div class="col-md-8 text-white mt-5 ml-5">
+            		<h1>ВЫВЕДИ СВОЙ БИЗНЕС НА НОВЫЙ УРОВЕНЬ ВМЕСТЕ С SMMUPLEVEL</h1>
+            		<hr>
+            		<p class="my-5">ПОМОЖЕМ ПРИВЕСТИ НОВЫХ КЛИЕНТОВ, С ПОМОЩЬЮ ВАШЕГО АККАУНТА В ИНСТАГРАМ</p>
+            	</div>
+            	<div class="col-md-4"></div>              	 			   		
+	   		</div>
+	   		<div class="row">
+	   			<div class="col-md-6 text-white ml-5">
+	   				<h5 class="my-5">ЗАПОЛНИТЕ ЗАЯВКУ И УЗНАЙТЕ, КАК ЛУЧШЕ ВСЕГО ПРОДВИГАТЬ БИЗНЕС ПО ВАШЕЙ ТЕМАТИКЕ</h5>
+   				    <form>
+                        <div class="form-row">
+                            <div class="col-12 col-md-8 mb-2 mb-md-0">
+                                <input type="email" class="form-control form-control-lg" placeholder="Телефон">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <button type="submit" class="btn btn-block btn-lg btn-red">Позвоните мне</button>
+                            </div>
+                        </div>
+                    </form>
+	   			</div>
+	   			<div class="col-md-5">
+	   				<img src="img/phone.png">
+	   			</div>
+	   		</div>
+	    </div>
+   	</header>
 
     <!-- Masthead -->
-    <header id="gradient" class="masthead text-white text-center">                  
+    <div style="opacity: 0" class="masthead text-white text-center">                  
         <div class="container">
-            <div class="row">           
-                <div class="gradient">
-                   <svg>
-                     <circle cx="100" cy="100" r="40" fill="none" stroke="white" stroke-width="9" id="bigCircle"/> 
-                     <circle cx="147" cy="55" r="7" fill="white" stroke="none" stroke-width="9" id="dot"/> 
-                     <rect rx="20" ry="20" x="25" y="25" width="150" height="150" fill="none" stroke="white" stroke-width="9" id="square"/>  
-                   </svg> 
-                </div>     
+            <div class="row">                          
                 <div class="col-xl-9 mx-auto py-5 my-0">
                     <h1 class="mb-5">Увеличьте число клиентов из Инстаграм одним кликом</h1>
                     <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -101,7 +127,7 @@
                 </div>
             </div>
         </div>        
-    </header>
+    </div>
 
     <!-- У вас уже есть аккаунт? -->
     <section class="question container-fluid text-center">
@@ -193,15 +219,9 @@
                             </div>
                             <div class="col-md-4">
                                 <img src="img/portfolio/1.jpeg">
-
-
-
                             </div>
                             <div class="col-md-4 d-none d-md-block">
                                 <img src="img/portfolio/2.jpeg">
-
-
-
                             </div>
                         </div>
                     </div>
@@ -218,15 +238,9 @@
                             </div>
                             <div class="col-md-4">
                                 <img src="img/portfolio/4.jpeg">
-
-
-
                             </div>
                             <div class="col-md-4 d-none d-md-block">
                                 <img src="img/portfolio/5.jpeg">
-
-
-
                             </div>
                         </div>
                     </div>
@@ -743,6 +757,8 @@
             </div>
         </div>
     </footer>
+  </div> <!-- END content -->
+</div> <!-- END wrapper -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -754,12 +770,26 @@
     <script src="js/otz.js"></script>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-    <script src="js/steps.js"></script>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.0/anime.min.js'></script>
-    <script  src="js/gradient.js"></script>
     <script  src="js/instlogo.js"></script>    
 
+        <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
 </body>
 
 </html>

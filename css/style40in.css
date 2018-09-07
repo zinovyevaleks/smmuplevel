@@ -127,6 +127,43 @@ header {
     background: linear-gradient(0deg, #0000ffcc 0%, #ff0000d4 100%);
 }
 
-.bg-inst2 {
-    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+.barhat {
+    min-height: 100vh;
+    background-image: url(../img/bg/blackmat3.jpg);
+    background-size: cover;
+}
+.barhat > .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;    
+    opacity: 0.8;
+    background: #000;
+    min-height: 100vh;
+}
+.barhat hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    width: 300px;
+    float: left;
+    border-top: 5px solid rgb(100, 13, 16);
+}
+.btn-red {
+    color: #fff;
+    background-color: #95191f;
+    border-color: #5c0b0d;
+}
+.btn-red:hover {
+    color: #fff;
+    background-color: #bd3b41;
+    border-color: #5c0b0d;
+}
+.btn-red:active {
+    color: #fff;
+    background-color: #79161b;
+    border-color: #5c0b0d;
+}
+.barhat img {
+    max-width: 350px;
+    float: right;
 }

@@ -2,17 +2,18 @@
 
 .gradient {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 70px;
+  height: 70px;
   border-radius: 18.5%;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
   margin-bottom: 30px;
+  float: right;
 }
 
 svg {
-  width: 200px;
-  height: 200px;
+  width: 70px;
+  height: 70px;
 }
 
 .content {
