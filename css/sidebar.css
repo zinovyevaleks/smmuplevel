@@ -40,21 +40,11 @@
     left: 0;
     height: 100vh;
     z-index: 999;    
-    background-image: url(../img/bg/1.jpg);
+    background-image: url(../img/bg/2.jpg);
     background-size: cover;
     color: #fff;
     transition: all 0.3s;    
     border-right: 5px groove #5c090aad;
-}
-#sidebar .overlay{
-    width: 250px;
-    opacity: 0.9;
-    background: linear-gradient(118deg,#171717 0%, #000 125%);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    z-index: -1;
 }
 
 #sidebar.active {
@@ -169,6 +159,6 @@ a.article:hover {
         width: calc(100% - 250px);
     }
     #sidebarCollapse span {
-        display: none;
+        /*display: none;*/
     }
 }
