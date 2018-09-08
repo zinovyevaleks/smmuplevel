@@ -130,10 +130,8 @@ h2  {
 }
 
 .barhat {
-    min-height: 100vh;
     background-image: url(../img/bg/red1.jpg);    
     background-size: cover;
-
 }
 
 .barhat hr {
@@ -170,6 +168,9 @@ h2  {
     position: fixed;
     z-index: 99;
     top: 10px;
+    background: linear-gradient(118deg,#a81e25 0%, #450606 125%);
+    padding: 10px 10px 15px;
+    margin: 5px;
 }
 .fz-middle {
     font-size: 2rem;
@@ -215,7 +216,8 @@ h2  {
 .gb-title {
     font-size: 18px;
     color: #000;
-    margin-bottom: 13px
+    margin-bottom: 13px;
+    font-weight: bold;
 }
 .gb-text {
     line-height: 1.2;
@@ -237,9 +239,8 @@ h2  {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease    
 }
-.guarantees-btn:hover {
-    opacity: 0.9;    
-    text-transform: none;
+.guarantees-btn:hover {        
     color: #fff;
-    background: linear-gradient(118deg, #450606 0%, #a81e25 125%);
+    text-decoration: unset;
+    background: linear-gradient(137deg,#a81e25 15%, #450606 155%);
 }
