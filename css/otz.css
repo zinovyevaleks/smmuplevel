@@ -19,7 +19,7 @@
   max-width: 96%;
   margin: 50px auto;
 }
-.img, .img0, .img1, .img2, .img3 {
+.img, .img0, .img1, .img2, .img3, .img4 {
   padding: 10px;
   width: 80%;
   min-height: 345px;
@@ -32,7 +32,7 @@
   background: #fff;
 }
 
-.img0, .img1, .img2, .img3 {
+.img0, .img1, .img2, .img3, .img4 {
   display: none;
 }
 

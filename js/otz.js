@@ -8,11 +8,11 @@ left.click(addLeft);
 
 function addRight(){
   $number++;
-  if($number > 4) {
+  if($number > 5) {
     $number = 0;
   };
   if($number == 0) {
-    $('.img3').hide();
+    $('.img4').hide();
     $('.img').fadeIn();
   }
   if($number == 1) {
@@ -31,12 +31,16 @@ function addRight(){
     $('.img2').hide();
     $('.img3').fadeIn();
   }    
+  if($number == 5) {
+    $('.img3').hide();
+    $('.img4').fadeIn();
+  }    
 }
 
 function addLeft(){
   $number--;  
   if($number < 0) {
-    $number = 4;
+    $number = 5;
   };
   if($number == 0) {
     $('.img0').hide();
@@ -55,10 +59,14 @@ function addLeft(){
     $('.img2').fadeIn();
   } 
   if($number == 4) {
-    $('.img').hide();
+    $('.img4').hide();
     $('.img3').fadeIn();
   }  
-  if($number > 4) {
+  if($number == 5) {
+    $('.img').hide();
+    $('.img4').fadeIn();
+  }  
+  if($number > 5) {
     $number = 0;
   };  
 }

@@ -186,3 +186,60 @@ h2  {
 .fraz img{
     max-width: 450px;
 }
+/* Гарантии */
+
+.guarantees-box {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.gb-img {
+    margin-right: 25px;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(1, 2, 2, 0.41);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(1, 2, 2, 0.41);
+    box-shadow: 0px 0px 6px 0px rgba(1, 2, 2, 0.41)
+}
+.gb-img img {
+    display: flex;
+    margin: auto
+}
+.gb-text-box {
+    max-width: 325px
+}
+.gb-title {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 13px
+}
+.gb-text {
+    line-height: 1.2;
+    font-size: 14px
+}
+.guarantees-btn {
+    display: block;
+    border-radius: 10px;
+    margin: 50px auto 0;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: linear-gradient(118deg,#a81e25 0%, #450606 125%);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease    
+}
+.guarantees-btn:hover {
+    opacity: 0.9;    
+    text-transform: none;
+    color: #fff;
+    background: linear-gradient(118deg, #450606 0%, #a81e25 125%);
+}
