@@ -22,6 +22,10 @@ h1, h2, h3, button, .btn {
 header {
 	z-index: -1;
 }
+h2  {
+    font-size: 2.3rem;
+    line-height: 3rem;
+}
 .bg-light {
     background-color: #abd2f924!important;
 }
@@ -48,7 +52,7 @@ header {
     border-radius: 50px;
     padding: 19px;
     max-width: 706px;
-    margin: -150px auto 5px;
+    margin: -100px auto 5px;
     z-index: 999;
     background: #fff;
 }
@@ -69,7 +73,7 @@ header {
 
 .question button {
   border-radius: 4px;
-  background-color: #5ca1e1;
+  background-color: #a81e25;
   border: none;
   color: #fff;
   transition: all 0.5s;
@@ -77,12 +81,12 @@ header {
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
 }
 .question button:hover {
-    background: #046ee0;
+    background: #450606;
     margin-top: 14px;
     margin-left: -2px;
 }
 .question button:active {
-	background: #005abb;
+	background: #a81e25;
     border: 1px solid #3E3E3D;
 }
 .logowho {
@@ -97,9 +101,7 @@ header {
 .comments .row {
     background: unset;
 }
-.bg-inst {
-    background-image: linear-gradient(0deg, #ff0000d4 0%, #0000ffcc 100%);
-}
+
 .comments .overlay {
     position: absolute;
     background-color: #212529;
@@ -168,4 +170,19 @@ header {
     position: fixed;
     z-index: 99;
     top: 10px;
+}
+.fz-middle {
+    font-size: 2rem;
+}
+.fz-small {
+    font-size: 1.5rem;
+}
+.bg-new {
+    background: linear-gradient(118deg,#a81e25 0%, #450606 125%);
+}
+.cause img {
+    margin:20px auto;
+}
+.fraz img{
+    max-width: 450px;
 }
