@@ -56,20 +56,6 @@ h2  {
     z-index: 999;
     background: #fff;
 }
-.arrowl {
-    display: none;
-	position: absolute;
-    top: -53px;
-    right: 72px;
-    width: 156px;
-}
-.arrowr {
-    display: none;
-	position: absolute;
-    top: -53px;
-    left: 72px;
-    width: 156px;
-}
 
 .question button {
   border-radius: 4px;
@@ -144,25 +130,25 @@ h2  {
 }
 .btn-red {
     color: #fff;
-    background-color: #000;
+    background: #000;
     border-color: #5c0b0d;
 }
 .btn-red:hover {
     color: #fff;
-    background-color: #555;
+    background: #5c0b0d;
     border-color: #5c0b0d;
 }
 .btn-red:active {
     color: #fff;
-    background-color: #000;
+    background: #000;
     border-color: #5c0b0d;
 }
 .barhat img {
     max-width: 350px;
     float: right;
 }
-.barhat input {
-    background: #ece0e0f2;
+.barhat input, textarea {
+    background: aliceblue!important;
 }
 #sidebarCollapse {
     position: fixed;
@@ -186,6 +172,37 @@ h2  {
 }
 .fraz img{
     max-width: 450px;
+}
+@media screen and (max-width: 567px) {
+    .fraz img{
+        max-width: 250px;
+    }   
+    .tariffCards > div {
+        margin-left: 0px!important;
+        width: 286px;
+        height: 155px;
+    }
+    .tariffCards > div h3 {
+        top: 35px;
+    }
+    .tariffCards > div img {
+        margin-top: -7px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2.5rem!important;
+    }
+    #slider {
+        height: 1116px;
+    }
+    .barhat hr {
+        width: 200px;
+    }
+    .barhat img {
+        width: 200px;
+    }
 }
 /* Гарантии */
 
@@ -242,5 +259,66 @@ h2  {
 .guarantees-btn:hover {        
     color: #fff;
     text-decoration: unset;
+    background: linear-gradient(137deg,#a81e25 15%, #450606 255%);
+}
+.tariffCards > div h3 {
+    top: 69px;
+}
+.tariffCards > div.vip {
+    background-image: url(../img/bg/2.jpg);
+    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+}
+.tariffCards > div.first {
+    background-image: url(../img/bg/red1.jpg);    
+    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+}
+.tariffCards > div.business {
+    background: linear-gradient(118deg,#a81e25 0%, #450606 125%);    
+    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+}
+.tariffCards > div.premiumeconomy {
+    background: linear-gradient(118deg,#676363 0%, #ababab 125%);
+    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+}
+.tariffCards > div.economy {
+    background: #fff;
+    color: black;
+    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+}
+.btn-primary {
+    display: block;
+    border-radius: 10px;
+    margin: 50px auto 0;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: linear-gradient(118deg,#a81e25 0%, #450606 125%);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease    
+}
+.btn-primary:hover {        
+    color: #fff;
+    text-decoration: unset;
     background: linear-gradient(137deg,#a81e25 15%, #450606 155%);
+}
+footer form input, footer textarea, footer button {
+    margin:10px;
+    min-width: 250px;
+    max-width: 450px;
+}
+footer form {
+    padding: 10px 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    background: linear-gradient(118deg,#676363 0%, #ababab 125%);
+    color: #000;
+    margin: auto;
+}
+footer p {
+    font-size: 1.5rem;
 }

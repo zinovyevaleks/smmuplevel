@@ -38,7 +38,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 120%;
     z-index: 999;    
     background-image: url(../img/bg/2.jpg);
     background-size: cover;
