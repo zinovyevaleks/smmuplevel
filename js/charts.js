@@ -36,9 +36,7 @@ google.charts.setOnLoadCallback(drawChart);
 
         var options = {
           pieHole: 0.6,
-          pieSliceTextStyle: {
-            color: 'black',
-          },
+          pieSliceText: 'none',
           legend: 'none',
           colors: ['#b0120a', '#ffab91']
         };

@@ -1,0 +1,113 @@
+/**
+* THE IMPORTANT STUFF
+* Styles related to the core functionality of the clock.
+* 
+* Separated to ease undestanding of how the clock functions.
+*/
+@keyframes tick {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Clock {
+  --hour: 0;
+  --minute: 0;
+  --second: 0;
+}
+.Clock .Clock-seconds {
+  transform: rotate(calc(var(--second) * 6deg));
+  animation: tick 60s steps(60, end) infinite;
+}
+.Clock .Clock-minutes {
+  transform: rotate(calc(var(--minute) * 6deg));
+  animation: tick 3600s steps(60, end) infinite;
+}
+.Clock .Clock-hours {
+  transform: rotate(calc(var(--hour) * 30deg));
+  animation: tick 43200s steps(12, end) infinite;
+}
+
+/**
+* THE ALSO IMPORTANT BUT NOT AS IMPORTANT STUFF
+* General styles less related to the core functionality of the clock.
+*
+* Separated to ease undestanding how clock functions.
+*/
+.Clock {
+  counter-reset: clock;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 8px solid var(--darkPurple);
+  padding: 0;
+  transform: rotate(180deg);
+  background: white;
+  margin: 35px 0 0 0;
+}
+.Clock:before, .Clock:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center;
+  background: linear-gradient(90deg, white 0%, white 2%, black 2%, black 15%, white 15%, white 85%, black 85%, black 98%, white 98%, white 100%);
+}
+.Clock:before {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.Clock-parts {
+  margin: 0;
+}
+.Clock-parts:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  z-index: 4;
+}
+.Clock li {
+  position: absolute;
+  display: block;
+  background: black;
+  top: 50%;
+  transform-origin: top;
+  z-index: 3;
+  height: 90px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.Clock li.Clock-seconds {
+  --line-width: 2px;
+  width: var(--line-width);
+  left: calc(50% - (var(--line-width) / 2));
+  background: red;
+}
+.Clock li.Clock-minutes {
+  --line-width: 6px;
+  width: var(--line-width);
+  left: calc(50% - (var(--line-width) / 2));
+  z-index: 1;
+}
+.Clock li.Clock-hours {
+  --line-width: 8px;
+  width: var(--line-width);
+  height: 50px;
+  left: calc(50% - (var(--line-width) / 2));
+  z-index: 2;
+}
+
+:root {
+  --purple: #a81e25;
+  --darkPurple: #a81e25;
+}
