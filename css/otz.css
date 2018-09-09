@@ -3,9 +3,8 @@
   text-align: center;
 }
 .photos img {
-  min-height: 222px;
-  max-height: 468px;
-  max-width: 96%;
+  align-self: center;
+  max-height: 468px;  
   margin: 50px auto;
 }
 @media screen and (max-width: 700px) {
@@ -14,12 +13,11 @@
   } 
 }
 .photos video {
-  min-height: 222px;
-  max-height: 468px;
-  max-width: 96%;
   margin: 50px auto;
+  align-self: center;
 }
 .img, .img0, .img1, .img2, .img3, .img4 {
+  display: flex;
   padding: 10px;
   width: 80%;
   min-height: 345px;

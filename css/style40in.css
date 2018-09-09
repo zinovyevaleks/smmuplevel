@@ -56,7 +56,13 @@ h2  {
     z-index: 999;
     background: #fff;
 }
-
+.question button p {
+    font-weight: bold;
+}
+.question button b{        
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
 .question button {
   border-radius: 4px;
   background-color: #a81e25;
@@ -131,7 +137,10 @@ h2  {
 .btn-red {
     color: #fff;
     background: #000;
-    border-color: #5c0b0d;
+    border-color: #5c0b0d;    
+}
+.btn-width {
+    width: 200px;
 }
 .btn-red:hover {
     color: #fff;
@@ -231,14 +240,14 @@ h2  {
     max-width: 325px
 }
 .gb-title {
-    font-size: 18px;
+    font-size: 1.5rem;
     color: #000;
     margin-bottom: 13px;
     font-weight: bold;
 }
 .gb-text {
-    line-height: 1.2;
-    font-size: 14px
+    line-height: 1.5rem;
+    font-size: 1.2rem;
 }
 .guarantees-btn {
     display: block;
@@ -266,24 +275,24 @@ h2  {
 }
 .tariffCards > div.vip {
     background-image: url(../img/bg/2.jpg);
-    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+    box-shadow: 1px 1px 1px #5C4040, 1px 1px 0 1px #000!important;
 }
 .tariffCards > div.first {
-    background-image: url(../img/bg/red1.jpg);    
-    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+    background: linear-gradient(118deg,#000 0%, #676363 125%);
+    box-shadow: 1px 1px 1px #815D5D, 1px 1px 0 1px #000!important;
 }
 .tariffCards > div.business {
-    background: linear-gradient(118deg,#a81e25 0%, #450606 125%);    
-    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+    background: linear-gradient(118deg,#4B4949 0%, #9C9C9C 125%);
+    box-shadow: 1px 1px 1px #A97C7C, 1px 1px 0 1px #000!important;
 }
 .tariffCards > div.premiumeconomy {
-    background: linear-gradient(118deg,#676363 0%, #ababab 125%);
-    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+    background: linear-gradient(118deg,#9A9A9A 0%, #ababab 125%);
+    box-shadow: 1px 1px 1px #CEADAD, 1px 1px 0 1px #000!important;
 }
 .tariffCards > div.economy {
     background: #fff;
     color: black;
-    box-shadow: 20px 20px 60px rgba(78, 5, 5, 0.5), 1px 1px 0 1px #480a0a!important;
+    box-shadow: 1px 1px 1px #E0C4C4, 1px 1px 0 1px #000!important;
 }
 .btn-primary {
     display: block;
@@ -321,4 +330,86 @@ footer form {
 }
 footer p {
     font-size: 1.5rem;
+}
+.sidebar-header img{
+    width: 50px;
+}
+
+.containeri {
+  margin: auto;
+  margin-top: 25px;
+}
+
+ul.submenui {
+  background-color: #212121;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 0;
+  overflow: hidden;
+}
+ul.submenui li {
+  display: inline-block;
+}
+ul.submenui li a i.fa {
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid transparent;
+  color: #ccc;
+  height: 52px;
+  width: 39px;
+  border-radius: 50px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  z-index: 2;
+  font-size: 1.5rem;
+}
+ul.submenui li a i.fa::after {
+  content: "";
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  top: -500%;
+  bottom: -500%;
+  left: -500%;
+  right: -500%;
+  margin: auto;
+  border: 0px solid transparent;
+  border-radius: 200px;
+  opacity: 0;
+  z-index: -1;
+  transition: all ease 0.5s;
+}
+ul.submenui li a:hover i.fa::before {
+  color: #fff;
+}
+ul.submenui li a:hover i::after {
+  height: 200%;
+  width: 200%;
+  background-color: #a81e25;
+  border-radius: 0px;
+  opacity: 1;
+}
+ul.submenui li a:hover i.fa-twitter::after {
+  height: 200%;
+  width: 200%;
+  background-color: #a81e25;
+  border-radius: 0px;
+  opacity: 1;
+}
+ul.submenui li a:hover i.fa-google-plus::after {
+  height: 200%;
+  width: 200%;
+  background-color: #a81e25;
+  border-radius: 0px;
+  opacity: 1;
+}
+ul.submenui li a:hover i.fa-instagram::after {
+  height: 200%;
+  width: 200%;
+  background-color: #a81e25;
+  border-radius: 0px;
+  opacity: 1;
 }

@@ -36,14 +36,14 @@
 .Clock {
   counter-reset: clock;
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 8px solid var(--darkPurple);
   padding: 0;
   transform: rotate(180deg);
   background: white;
-  margin: 35px 0 0 0;
+  margin: 10px auto;
 }
 .Clock:before, .Clock:after {
   content: '';

@@ -4,7 +4,7 @@ google.charts.setOnLoadCallback(drawBarColors);
 function drawBarColors() {
       var data = google.visualization.arrayToDataTable([
         ['City', 'Контекстная реклама', 'Инстаграм'],
-        ['Cегодня', 180, 60]        
+        ['Cегодня', 2.4, 0.8]        
       ]);
 
       var options = {
@@ -12,7 +12,7 @@ function drawBarColors() {
         chartArea: {width: '50%'},
         colors: ['#b0120a', '#ffab91'],
         hAxis: {
-          title: 'руб',
+          title: '$',
           minValue: 0
         },
         vAxis: {
@@ -87,9 +87,7 @@ function drawChart2() {
 
   var options = {
     pieHole: 0.6,
-    pieSliceTextStyle: {
-      color: 'black',
-    },
+    pieSliceText: 'none',
     legend: 'none',
     colors: ['#b0120a', '#ffab91']
   };
@@ -157,9 +155,20 @@ function drawRegionsMap() {
     ['RU', 70]
   ]);
 
-  var options = {
-    colors: ['#b0120a']
+  var options = {    
+    colors: ['#b0120a'],        
+    displayMode: 'auto',
   };
+/*   var options = {                                        
+                    displayMode: 'markers',
+                    pointSize: 10,
+                    pointShape: 'diamond',
+                    colorAxis: {colors: ['green', 'blue']},
+                    enableRegionInteractivity: false,
+                    hAxis: {minValue: 20, maxValue: 20},
+                    sizeAxis: {minSize: 27, maxSize: 27},
+                    enableRegionInteractivity: 'true',                                    
+                };*/
 
   var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
 
