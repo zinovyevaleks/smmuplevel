@@ -358,8 +358,7 @@ ul.submenui li a i.fa {
   color: #ccc;
   height: 52px;
   width: 39px;
-  border-radius: 50px;
-  margin: 10px;
+  border-radius: 50px;  
   text-align: center;
   line-height: 30px;
   position: relative;
@@ -386,29 +385,29 @@ ul.submenui li a:hover i.fa::before {
   color: #fff;
 }
 ul.submenui li a:hover i::after {
-  height: 200%;
-  width: 200%;
+  height: 150%;
+  width: 150%;
   background-color: #a81e25;
   border-radius: 0px;
-  opacity: 1;
+  opacity: 1;  
 }
 ul.submenui li a:hover i.fa-twitter::after {
-  height: 200%;
-  width: 200%;
+  height: 150%;
+  width: 150%;
   background-color: #a81e25;
   border-radius: 0px;
   opacity: 1;
 }
 ul.submenui li a:hover i.fa-google-plus::after {
-  height: 200%;
-  width: 200%;
+  height: 150%;
+  width: 150%;
   background-color: #a81e25;
   border-radius: 0px;
   opacity: 1;
 }
 ul.submenui li a:hover i.fa-instagram::after {
-  height: 200%;
-  width: 200%;
+  height: 150%;
+  width: 150%;
   background-color: #A81E25;
   border-radius: 0px;
   opacity: 1;
