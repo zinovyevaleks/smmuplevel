@@ -409,7 +409,42 @@ ul.submenui li a:hover i.fa-google-plus::after {
 ul.submenui li a:hover i.fa-instagram::after {
   height: 200%;
   width: 200%;
-  background-color: #a81e25;
+  background-color: #A81E25;
   border-radius: 0px;
   opacity: 1;
+}
+.tariff {
+  height: 750px;
+}
+#tariff_popup1, #tariff_popup2, #tariff_popup3, #tariff_popup4, #tariff_popup5 {  
+  position: absolute;
+  width: 100%;  
+  background: linear-gradient(137deg,rgba(156, 35, 40, .9803921568627451) 15%, rgba(69, 6, 6, 0.98) 155%);
+  z-index: 9999;    
+  margin-top: -6rem;
+  border:2px solid #fff;  
+   animation: tariff-anim 0.5s linear;
+   animation-fill-mode: forwards;
+}
+.close{  
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    float: right;
+    width: 50px;
+    z-index: 99999;
+    border: 2px solid #fff;
+    border-radius: 33px;
+    padding: 5px;    
+}
+#tariff_popup1 ul, #tariff_popup2 ul, #tariff_popup3 ul, #tariff_popup4 ul, #tariff_popup5 ul {  
+  list-style: none;
+}
+@keyframes tariff-anim {
+    from   {           
+      opacity: 0;              
+    }
+    to {      
+      opacity: 1;
+    }
 }
