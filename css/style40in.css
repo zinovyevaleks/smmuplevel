@@ -180,7 +180,7 @@ h2  {
     margin:20px auto;
 }
 .fraz img{
-    max-width: 450px;
+    max-width: 350px;
 }
 @media screen and (max-width: 567px) {
     .fraz img{
@@ -447,4 +447,8 @@ ul.submenui li a:hover i.fa-instagram::after {
     to {      
       opacity: 1;
     }
+}
+.arrow-right {
+  width: 150px;
+  color: white;
 }
